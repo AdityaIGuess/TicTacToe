@@ -1,0 +1,50 @@
+* {
+    background-color: azure;
+}
+
+.tictacgrid {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    background-color: rgb(39, 55, 59);
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px 10px grey;
+   
+    
+}
+ .display {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+ }
+
+.data {
+    border: 0.5px solid rgba(92, 92, 92, 0.137);
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(39, 55, 59);
+}
+
+.title {
+    font-size: 50px;
+}
+
+.restart {
+    margin-left: 850px;
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
+
+.turnchecker {
+    margin-left: 875px;
+    margin-top: 50px;
+}
