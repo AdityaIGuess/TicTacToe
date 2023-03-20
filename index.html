@@ -1,33 +1,37 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aditya's Single Interface Tic Tac Toe!</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Tic-Tac-Toe</title>
 </head>
 <body>
- <div class="display">
-    <div class="title">Welcome to Tic Tac Toe!</div>
-    <div class="display result hide">result</div>
-    <div class="tictacgrid">
-        <div class="data 1"></div>
-        <div class="data 2"></div>
-        <div class="data 3"></div>
-        <div class="data 4"></div>
-        <div class="data 5"></div>
-        <div class="data 6"></div>
-        <div class="data 7"></div>
-        <div class="data 8"></div>
-        <div class="data 9"></div> 
-    </div>
-    
-    </div>
-    <div class="turnchecker">
-        Player <span class="display-player playerX">X</span>'s turn
-    </div>
-    <button class="restart">RESET</button>
+    <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+        <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+        <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+        <section class="display announcer hide"></section>
+        <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+    </main>
 </body>
-    <script src="script.js"></script>
 </html>
